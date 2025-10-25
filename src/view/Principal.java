@@ -7,8 +7,8 @@ import controller.SteamController;
 public class Principal {
 
 	public static void main(String[] args) {
-		String path = "/tmp/CSVs/steam/";
-		String file = "SteamCharts";
+		String path = "data/";
+		String file = "example";
 		String extension = ".csv";
 		SteamController steamReading = new SteamController(path, file, extension);
 		
@@ -18,7 +18,7 @@ public class Principal {
 		
 		String yearCSV = "2018";
 		String monthCSV = "March";
-		String pathCSV = "/tmp/CSVs/steam/output/";
+		String pathCSV = "data/output/";
 		String nameCSV = "nome";
 		
 		try {
